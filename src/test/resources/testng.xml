@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test suite" verbose="1">
+    <listeners>
+        <listener class-name="io.github.lucysuslova.testrail.listeners.MethodInterceptorListener"/>
+        <listener class-name="io.github.lucysuslova.testrail.listeners.TestRailCaseResultListener"/>
+    </listeners>
+
+    <test name="Test name">
+        <classes>
+            <class name="io.github.lucysuslova.GoogleTestNGTest"/>
+        </classes>
+    </test>
+
+</suite>
